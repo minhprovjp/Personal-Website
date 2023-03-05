@@ -8,15 +8,7 @@ body{
     -moz-osx-font-smoothing: grayscale;
     background-size: cover;
   }
-  @media (max-width: 1080px) {
-    .box{
-      width: 50%;
-    }
-    .box-img {
-      width: 35%;
-      height: 35%;
-    }
-}
+  
   .box{
     width: 35%;
     height: 75%;
@@ -31,8 +23,8 @@ body{
   }
   .box-img{
     border-radius: 50%;
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 40%;
+    height: 40%;
   }
   .box h1{
     font-size: 40px;
