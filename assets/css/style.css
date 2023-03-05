@@ -19,7 +19,7 @@ body{
     margin-top: 5%;
     margin-bottom: 5%;
     color: white;
-    font-family: 'Century Gothic',sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-break: auto;
     overflow-wrap: break-word;  
     word-wrap: break-word; 
@@ -87,4 +87,20 @@ body{
   .box li a:hover{
     color: #b9b9b9;
   }
-  
+  /* scrollbar */
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: none;
+    border-radius: 20px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #a0a2ff;
+    border-radius: 20px;
+  }
