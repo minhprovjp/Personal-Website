@@ -26,6 +26,9 @@ body{
     color: white;
     font-family: 'Century Gothic',sans-serif;
     line-break: auto;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
   }
   .box-img{
     border-radius: 50%;
