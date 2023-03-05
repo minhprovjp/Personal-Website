@@ -10,8 +10,8 @@ body{
   }
   @media (max-width: 1080px) {
     .box-img {
-      width: 6.25rem;
-      height: 6.25rem;
+      width: 35%;
+      height: 35%;
     }
 }
   .box{
