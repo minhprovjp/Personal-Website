@@ -9,6 +9,9 @@ body{
     background-size: cover;
   }
   @media (max-width: 1080px) {
+    .box{
+      width: 50%;
+    }
     .box-img {
       width: 35%;
       height: 35%;
