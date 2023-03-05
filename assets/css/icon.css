@@ -34,13 +34,13 @@
      -webkit-font-smoothing: antialiased;
   }
   
-  a:hover {
+  .icon a:hover {
     background: #9fbafc;
   }
   
   /* pop-up text */
   
-  a span {
+  .icon a span {
     text-align: center;
     justify-content: center;
     color:#272e3e;
@@ -64,7 +64,7 @@
   
   /* pop-up text arrow */
   
-  a span:before {
+  .icon a span:before {
     content:'';
     width: 0; 
     height: 0; 
@@ -80,7 +80,7 @@
   
   /* text pops up when icon is in hover state */
   
-  a:hover span {
+  .icon a:hover span {
     bottom:3.125rem;
     visibility:visible;
     opacity:1;
@@ -90,17 +90,18 @@
   
   /* font awesome icons */
   
-  a:nth-of-type(1):before {
+  .icon a:nth-of-type(1):before {
   content: '\f09a';
   padding-left: 3px;
   }
-  a:nth-of-type(2):before {
+  .icon a:nth-of-type(2):before {
   content:'\f16d';
-  padding-left: 2.5px;
+  padding-left: 3px;
+  padding-top: -10px;
   }
-  a:nth-of-type(3):before {
+  .icon a:nth-of-type(3):before {
   content: '\f09b';
-  padding-left: 1px;
+  padding-left: 3px;
   }
 
 
