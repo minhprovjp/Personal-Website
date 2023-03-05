@@ -1,0 +1,107 @@
+.icon {
+    display: inline-block;
+    position: absolute;
+    left:50%;
+    -ms-transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Icons */
+  
+  a {
+    color:#fff;
+    background: #6f82b0;
+    border-radius:4px;
+    text-align:center;
+    justify-content:center;
+    text-decoration:none;
+    font-family:fontawesome;
+    position: relative;
+    display: inline-block;
+    width:2.5rem;
+    height: 1.75rem;
+    padding-top:0.75rem;
+    margin:0 0.125rem;
+    -o-transition:all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+     -webkit-font-smoothing: antialiased;
+  }
+  
+  a:hover {
+    background: #9fbafc;
+  }
+  
+  /* pop-up text */
+  
+  a span {
+    text-align: center;
+    justify-content: center;
+    color:#272e3e;
+    position:absolute;
+    font-family:sans-serif;
+    bottom:0;
+    left:-1.563rem;
+    right:-1.563rem;
+    padding:0.313rem 0.438rem;
+    z-index:-1;
+    font-size:11px;
+    border-radius:2px;
+    background:#fff;
+    visibility:hidden;
+    opacity:0;
+    -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  /* pop-up text arrow */
+  
+  a span:before {
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    position:absolute;
+    bottom:-0.313rem;
+    left:2.5rem;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* text pops up when icon is in hover state */
+  
+  a:hover span {
+    bottom:3.125rem;
+    visibility:visible;
+    opacity:1;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* font awesome icons */
+  
+  a:nth-of-type(1):before {
+  content: '\f09a';
+  padding-left: 3px;
+  }
+  a:nth-of-type(2):before {
+  content:'\f16d';
+  padding-left: 2.5px;
+  }
+  a:nth-of-type(3):before {
+  content: '\f09b';
+  padding-left: 1px;
+  }
+
+
+  

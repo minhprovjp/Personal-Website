@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/assets/img/darkbg.jpg) no-repeat;
+    max-width: 100%;
+    height: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-size: cover;
+  }
+  .box{
+    width: 35%;
+    height: 75%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 2.5rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 0.25rem;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 0.188rem;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  .contact-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 0.375rem;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  
