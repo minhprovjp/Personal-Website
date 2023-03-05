@@ -9,8 +9,9 @@ body{
     background-size: cover;
   }
   @media (min-width: 600px) {
-    .body {
-        width: 50%;
+    .box-img {
+      width: 6.25rem;
+      height: 6.25rem;
     }
 }
   .box{
