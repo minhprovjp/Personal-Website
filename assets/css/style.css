@@ -10,7 +10,7 @@ body{
   }
   @media (min-width: 1080px) {
     .box {
-        width: 50%;
+        width: 80%;
     }
   .box{
     width: 35%;
